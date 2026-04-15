@@ -32,7 +32,7 @@ TEST(PasswordTest2, single_letter_password)
 {
 	Password my_password;
 	int actual = my_password.count_leading_characters("   ");
-	ASSERT_EQ(2, my_password.count_leading_characters("   "));   //// This makes sure the value that is given is what is expected. 
+	ASSERT_EQ(3, my_password.count_leading_characters("   "));   //// This makes sure the value that is given is what is expected. 
 }
 
 TEST(PasswordTest3, single_letter_password)
