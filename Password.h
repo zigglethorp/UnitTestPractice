@@ -18,6 +18,12 @@ public:
   'z' and any ASCII characters are allowed.
   */
   int count_leading_characters(string word);
+
+  /*
+  Receives a string and returns a count of how many case-sensitive unique
+  characters there are.
+  */
+  unsigned int unique_characters(string word);
   
 
   /*
